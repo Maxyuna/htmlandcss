@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Table layout</title>
+    <title>Simple Table Example</title>
 </head>
 <body>
-    <table boarder="1">
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="4"></td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="4"></td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="4"></td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="4"></td>
-            <td colspan="3"></td>
-        </tr>
-    </table>
+<h1>Students</h1>
+<table border="1">
+    <thead>
+        <th colspan="2">Bitola</th>
+        <th colspan="4">Ohrid</th>
+        <th colspan="3">Strumica</th>
+        <th colspan="4">Skopje</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="2">Bojan</td>
+        <td colspan="2">Stefan</td>
+        <td colspan="2">Bojana</td>
+        <td>Ana</td>
+        <td rowspan="2">Stefanija</td>
+        <td rowspan="3">Iskra</td>
+        <td colspan="2">Filip</td>
+        <td colspan="2">Sofija</td>
+    </tr>
+    <tr>
+        <td colspan="2">Andrea</td>
+        <td colspan="2">Hristijan</td>
+        <td colspan="2">Suzana</td>
+        <td>Milena</td>
+        <td>Irina</td>
+        <td>Paolina</td>
+        <td>Petar</td>
+        <td>Stojan</td>
+    </tr>
+    <tr>
+        <td colspan="2">Stefan</td>
+        <td colspan="2">Jovan</td>
+        <td colspan="2">Umer</td>
+        <td>Lence</td>
+        <td>Silvana</td>
+        <td>Emil</td>
+        <td>Goran</td>
+        <td colspan="2">Maksim</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+    <td colspan="12">Total Students</td>
+    <td colspan="4">25</td>
+    </tr>
+</tfoot>
+</table>
 </body>
 </html>
