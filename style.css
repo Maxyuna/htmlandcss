@@ -1,0 +1,14 @@
+.firstparagraph {
+    color: red;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: underline;
+    font-weight: 400;
+}
+#heading {
+    color: blue;
+    font-size: x-large;
+    background-color: skyblue;
+    
+}
