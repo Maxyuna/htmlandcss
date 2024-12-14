@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    background-color: #f4f4f4;
+}
+
+.product-card {
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product-image {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+
+a {
+    text-align: center;
+    cursor: pointer;
+}
+.header {
+    text-align: center;
+    animation: header 1s ease-in;
+}
+@keyframes header {
+    from {
+        transform: translateX(-900px)
+    }
+    to {
+        transform: translateX(0px)
+    }
+}
+.product-card:hover {
+    border: 1px black solid;
+    animation: shake 0.5s;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0)
+    }
+    25%{
+        transform: translateX(-5px)
+    }
+    50%{
+        transform: translateX(5px)
+    }
+    75%{
+        transform: translateX(-5px)
+    }
+    100%{
+        transform: translateX(5px)
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer:hover {
+    border: 1px red solid;
+    animation: move 1s;
+}
+@keyframes move {
+    from {
+        transform: translateX(900px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}

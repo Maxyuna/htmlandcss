@@ -1,0 +1,32 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 30px;
+  background-color: lightblue;
+  color: black;
+}
+.container {
+  border: 1px solid black;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  grid-template-rows: 60px 400px 60px;
+}
+.header {
+  border: 1px solid teal;
+  background-color: black;
+  color: white;
+}
+.content {
+  border: 1px solid blue;
+  background-color: purple;
+}
+.footer {
+  border: 1px solid lightblue;
+  background-color: blue;
+}
+@media screen and (min-width: 800px) {
+  .header, .content, .footer {
+      width: 100%;
+  }
+}
